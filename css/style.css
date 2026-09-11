@@ -24,14 +24,14 @@ body {
     color: white;
     box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy transition */
-    width: 100%;
-    height: 100%;
+    width: 44px;
+    height: 44px;
 }
 
 .custom-marker:hover {
     transform: scale(1.15);
-    background: linear-gradient(135deg, #FF7675, #fab1a0); /* Change color on hover */
     cursor: pointer;
+    filter: brightness(1.1);
 }
 
 .custom-marker i {
@@ -39,7 +39,7 @@ body {
 }
 
 /* Popup Styles */
-.leaflet-popup-content-wrapper {
+.maplibregl-popup-content {
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     padding: 0;
@@ -47,12 +47,7 @@ body {
     border: none;
 }
 
-.leaflet-popup-content {
-    margin: 0;
-    width: 280px !important;
-}
-
-.leaflet-popup-tip-container {
+.maplibregl-popup-tip {
     display: none; /* Cleaner look without the tip triangle */
 }
 
@@ -66,38 +61,90 @@ body {
     margin-bottom: 16px;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 12px;
+    text-align: center;
 }
 
 .profile-info {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 2px;
+}
+
+/* Photo + carousel */
+.photo-carousel {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .student-photo {
-    width: 48px;
-    height: 48px;
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .student-photo-placeholder {
-    width: 48px;
-    height: 48px;
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
     background-color: #f1f2f6;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 26px;
     color: #b2bec3;
 }
+
+.carousel-dots {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.carousel-dots .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #dfe6e9;
+}
+
+.carousel-dots .dot.active {
+    background: #6C5CE7;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 36px;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 10px;
+    color: #2d3436;
+}
+
+.carousel-btn.prev { left: -6px; }
+.carousel-btn.next { right: -6px; }
+.carousel-btn:hover { background: #f1f2f6; }
 
 .text-info {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .popup-header h3 {
@@ -114,6 +161,31 @@ body {
     color: #74b9ff;
     font-weight: 600;
     margin-top: 4px;
+    text-decoration: none;
+}
+
+.social-handle:hover {
+    text-decoration: underline;
+}
+
+.vibe-tag {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background: #f1f0ff;
+    color: #6C5CE7;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.quote {
+    font-style: italic;
+    color: #636e72;
+    font-size: 12.5px;
+    text-align: center;
+    margin: 10px 0 0;
+    line-height: 1.4;
 }
 
 .popup-section {
@@ -157,7 +229,150 @@ body {
     color: #d63031;
 }
 
+.tag i {
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+/* Star rating */
+.stars-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars {
+    color: #fdcb6e;
+    font-size: 13px;
+}
+
+.stars .star-empty {
+    color: #dfe6e9;
+}
+
+/* Fun fact */
+.fun-fact {
+    background: #fff9db;
+    border-left: 3px solid #fdcb6e;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #636e72;
+    margin-bottom: 12px;
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
+}
+
+.fun-fact i {
+    color: #fdcb6e;
+    margin-top: 2px;
+}
+
+/* Badges: tool favorita, superpoder */
+.badges-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.badge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    background: #f1f2f6;
+    color: #2d3436;
+}
+
+.badge-pill.superpower {
+    background: #ffeaa7;
+    color: #a86b00;
+}
+
+/* Canción favorita */
+.song-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: rgba(29, 185, 84, 0.12);
+    color: #1aa34a;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: background 0.15s ease;
+}
+
+.song-link:hover {
+    background: rgba(29, 185, 84, 0.22);
+}
+
+/* Top lugares */
+.spots-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.spots-list li {
+    font-size: 12px;
+    color: #2d3436;
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
+}
+
+.spots-list i {
+    color: #e17055;
+    margin-top: 2px;
+}
+
+/* Botón compartir */
+.share-btn {
+    width: 100%;
+    margin-top: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6C5CE7, #a29bfe);
+    color: white;
+    font-weight: 600;
+    font-size: 12.5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: transform 0.15s ease;
+}
+
+.share-btn:hover {
+    transform: scale(1.02);
+}
+
+/* Tooltip de conexiones entre estudiantes */
+.connection-tooltip {
+    font-size: 11px;
+    font-weight: 600;
+    color: #2d3436;
+    padding: 2px 4px;
+}
+
+/* Control activo (toggle conexiones) */
+.maplibregl-ctrl-group button.ctrl-active i {
+    color: #6C5CE7;
+}
+
 /* Animation for Popup */
-.leaflet-fade-anim .leaflet-popup {
+.maplibregl-popup {
     transition: opacity 0.2s linear;
 }

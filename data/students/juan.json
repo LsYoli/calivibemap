@@ -3,8 +3,21 @@
     "name": "Juan David Pérez",
     "lat": 3.451640,
     "lng": -76.531980,
+    "color": "#4ECDC4",
     "photo": "https://randomuser.me/api/portraits/men/32.jpg",
-    "likes": ["Café", "React.js", "Ciclismo"],
+    "likes": ["Café", "React.js", "Ciclismo", "Naturaleza"],
     "dislikes": ["Bugs en Prod", "Ruido"],
-    "socialMedia": "@juandev_js"
+    "socialMedia": "@juandev_js",
+    "quote": "Commitea rápido, refactoriza después.",
+    "funFact": "Ha tomado más café que líneas de código ha escrito (y eso ya es mucho decir).",
+    "vibe": "Nocturno cafeinado, commits a las 2am",
+    "superpower": "Debuggear sin necesitar Stack Overflow",
+    "topLike": { "name": "Café", "rating": 5 },
+    "favoriteTool": { "name": "React.js", "icon": "fa-brands fa-react" },
+    "song": { "title": "Robot Rock", "artist": "Daft Punk", "url": "https://open.spotify.com/search/Robot%20Rock%20Daft%20Punk" },
+    "topSpots": [
+        "Bendito Café - su oficina no oficial",
+        "Ciclovía CAM - rutas de domingo",
+        "El Peñón - mirador favorito"
+    ]
 }

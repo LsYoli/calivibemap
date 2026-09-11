@@ -3,8 +3,21 @@
     "name": "Mariana Costa",
     "lat": 3.399600,
     "lng": -76.541000,
+    "color": "#FFB84C",
     "photo": "https://randomuser.me/api/portraits/women/68.jpg",
-    "likes": ["Hamburguesas", "Naturaleza", "Python"],
+    "likes": ["Hamburguesas", "Naturaleza", "Python", "Salsa"],
     "dislikes": ["Calor Extremo", "Pizza Hawaiana"],
-    "socialMedia": "@mari_pics"
+    "socialMedia": "@mari_pics",
+    "quote": "La mejor foto es la que casi no tomas.",
+    "funFact": "Ha comido hamburguesa en cada food truck de Cali (proyecto en progreso).",
+    "vibe": "Exploradora de fin de semana, código entre semana",
+    "superpower": "Encontrar el mejor food truck sin Google Maps",
+    "topLike": { "name": "Naturaleza", "rating": 4 },
+    "favoriteTool": { "name": "Python", "icon": "fa-brands fa-python" },
+    "song": { "title": "Here Comes The Sun", "artist": "The Beatles", "url": "https://open.spotify.com/search/Here%20Comes%20The%20Sun" },
+    "topSpots": [
+        "Farallones de Cali - senderismo",
+        "Vaca Andaluza - hamburguesa favorita",
+        "Río Pance - domingos de desconexión"
+    ]
 }

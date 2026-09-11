@@ -3,8 +3,25 @@
     "name": "Valentina López",
     "lat": 3.437220,
     "lng": -76.522500,
+    "color": "#FF6B9D",
     "photo": "https://randomuser.me/api/portraits/women/44.jpg",
-    "likes": ["Salsa", "UX Design", "Gatos"],
+    "photos": [
+        "https://randomuser.me/api/portraits/women/44.jpg",
+        "https://randomuser.me/api/portraits/women/50.jpg"
+    ],
+    "likes": ["Salsa", "UX Design", "Gatos", "Café"],
     "dislikes": ["Tráfico Lento", "Lluvia de Lunes"],
-    "socialMedia": "@valen_ux"
+    "socialMedia": "@valen_ux",
+    "quote": "El buen diseño no se nota, se siente.",
+    "funFact": "Puede reconocer una fuente tipográfica a 10 metros de distancia.",
+    "vibe": "Diseñadora nocturna con playlist de salsa",
+    "superpower": "Teletransportarse al Zaguán sin tráfico",
+    "topLike": { "name": "Salsa", "rating": 5 },
+    "favoriteTool": { "name": "Figma", "icon": "fa-solid fa-pen-nib" },
+    "song": { "title": "La Rebelión", "artist": "Joe Arroyo", "url": "https://open.spotify.com/search/La%20Rebelion%20Joe%20Arroyo" },
+    "topSpots": [
+        "El Zaguán de San Antonio - café con vista",
+        "La Topa Tolondra - salsa en vivo",
+        "Parque del Perro - domingos de bici"
+    ]
 }
