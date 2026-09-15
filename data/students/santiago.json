@@ -1,0 +1,36 @@
+{
+"id": 1,
+"name": "Santiago Gualguan",
+"lat": 3.4750,
+"lng": -76.4800,
+"color": "#4B0082",
+"photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Chipichape%20%2815087230242%29.jpg",
+"likes": [
+"Gym",
+"Comer",
+"Ver series",
+"Pasar tiempo en familia",
+"Caminatas"
+],
+"dislikes": [
+"Tomate de árbol",
+"El calor"
+],
+"socialMedia": "@santiagoxkpillimue",
+"quote": "No hay mal que pase que por bien no venga",
+"funFact": "Me gusta mucho caminar largas distancias por diversión.",
+"vibe": "Programador nocturno y amante del café",
+"superpower": "Mentalista: utiliza la agudeza mental, la hipnosis y/o la sugestión para comprender e influir en el comportamiento.",
+"topLike": {
+"name": "Hacer actividad física",
+"rating": 4
+},
+"song": {
+"title": "Les",
+"artist": "Childish Gambino",
+"url": "https://www.youtube.com/watch?v=L8gGHqPBuZM"
+},
+"topSpots": [
+"Chipichape"
+]
+}
