@@ -1,0 +1,23 @@
+{
+    "id": 4,
+    "name": "Brandon Lasprilla Aristizabal",
+    "lat": 3.4250997255258957,
+    "lng": -76.48187852761477,
+    "color": "#4ECDC4",
+    "photo": "https://randomuser.me/api/portraits/men/33.jpg",
+    "likes": ["pizza", "java", "javascript", "Naturaleza","musica","python"],
+    "dislikes": ["Bugs en Prod", "Ruido", "c"],
+    "socialMedia": "@*******",
+    "quote": "Commitea rápido, refactoriza si me acuerdo.",
+    "funFact": "Puede escribir código mientras duerme.jk",
+    "vibe": "Desarrollador nocturno con playlist random",
+    "superpower": "Debuggear sin necesitar Stack Overflow",
+    "topLike": { "name": "pizza", "rating": 5 },
+    "favoriteTool": { "name": "React.js", "icon": "fa-brands fa-react" },
+    "song": { "title": "For the love of you", "artist": "The Isley Brothers", "url": "https://open.spotify.com/track/7teF2kwC3GL00mQfwtxzo9?si=b3209064f4444f66" },
+    "topSpots": [
+        "cinema - when I have money",
+        "fast food - when I have money",
+        "my house - when I don't have money"
+    ]
+}
