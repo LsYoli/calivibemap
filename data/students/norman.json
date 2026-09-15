@@ -1,0 +1,27 @@
+{
+    "id": 4,
+    "name": "Norman Sanchez",
+    "lat": 3.437220,
+    "lng": -76.522500,
+    "color": "#0066A8",
+    "photo": "https://randomuser.me/api/portraits/men/46.jpg",
+    "photos": [
+        "https://randomuser.me/api/portraits/men/46.jpg",
+        "https://randomuser.me/api/portraits/men/46.jpg"
+    ],
+    "likes": ["Rap", "Software Development, "Gatos", "Café"],
+    "dislikes": ["Tráfico Lento", "Lluvia de Lunes"],
+    "socialMedia": "@norman.sanchezt",
+    "quote": "La sabiduria es la cosecha de las experincias",
+    "funFact": "Es sonambulo",
+    "vibe": "Programador, que le gusta el rap/hiphop ",
+    "superpower": "No se, no tiene",
+    "topLike": { "name": "Programar", "rating": 5 },
+    "favoriteTool": { "name": "Python", "icon": "fa-brands fa-python" },
+    "song": { "title": "Acepta", "artist": "Canserbero", "url": "https://www.youtube.com/watch?v=J3if3R7w4j8&list=RDmP7huH_oKpc&index=2" },
+    "topSpots": [
+        "Senderismo para subir montañas de la zona rural",
+        "Rap en vivo como en concietos",
+        "Jugar futbol y hacer Calistenia"
+    ]
+}
