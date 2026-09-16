@@ -1,0 +1,25 @@
+{
+    "id": 2441332,
+    "name": "Luis Santiago Arenas Hincapié",
+    "lat": 3.4316,
+    "lng": -76.5414,
+    "color": "#FF6B9D",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQiIr7eC96l1Wds9rmfTSq6XB6ygHsG3aQWMr4_vYTuxR2YJt4oC2rclpVvAlIrR1p&s=10&ec=121966410",
+    "photos": [
+    ],
+    "likes": ["fisica", "HPC", "algoritmia", "cuantica", "arroz con huevo"],
+    "dislikes": ["esperar"],
+    "socialMedia": "@noaply",
+    "quote": "Nada en la vida es para ser temido, es sólo para ser comprendido - Marie Curie",
+    "funFact": "El sabio se parcha, el bobo se estresa",
+    "vibe": "parchado",
+    "superpower": "Dormir y que se pare el tiempo, hasta que despierte",
+    "topLike": { "name": "rap conciencia", "rating": 5 },
+    "favoriteTool": { "name": "Fortran", "icon": "fa-solid fa-pen-nib" },
+    "song": { "title": "A veces", "artist": "Al2 El Aldeano", "url": "https://open.spotify.com/intl-es/track/65gSO7jf5gVDJnaBR1oPJp?si=ba78a38977be4e99" },
+    "topSpots": [
+        "Univalle",
+        "Terminal",
+        "Aeropuerto"
+    ]
+}
