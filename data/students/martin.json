@@ -1,0 +1,25 @@
+{
+    "id": 2372233,
+    "name": "Martín Alvarez Quintero",
+    "lat": 3.2608,
+    "lng": -76.5369,
+    "color": "#4ECDC4, #E63946", 
+    "photo": "",
+    "photos": [
+    ],
+    "likes": ["futbol","calistenia", "streetwear", "anime", "emprendimiento"],
+    "dislikes": ["madrugar", "desorden", "calculo", "fisica", "quimica"],
+    "socialMedia": "tiktok, instagram, pinterest",
+    "quote": "Somos lo que hacemos repetidamente. La excelencia no es un acto, sino un hábito. – Aristóteles",
+    "funFact": "",
+    "vibe": "hybrid athlete",
+    "superpower": "",
+    "topLike": { "name": "futbol", "rating": 5 },
+    "favoriteTool": { "name": "VS Code", "icon": "fa-solid fa-code" },
+    "song": { "la vida sigue igual": "", "sandro": "", "url": "https://open.spotify.com/intl-es/track/50NYl80yWOTzcLs4tHlylJ?si=c4777d87c1124d62" },
+    "topSpots": [
+        "Univalle",
+        "jardin plaza",
+        "coliseo del pueblo"
+    ]
+}
