@@ -1,0 +1,23 @@
+{
+    "id": 33,
+    "name": "Andres Felipe Narvaez Bolaños",
+    "lat": 3.3719117645268697,
+    "lng": -76.53371683129997,
+    "color": "#4ECDC4",
+    "photo": "https://randomuser.me/api/portraits/men/22.jpg",
+    "likes": ["Café", "Cerveza", "Muay Thai", "Videojuegos", "Frio"],
+    "dislikes": ["Calor", "Mariscos"],
+    "socialMedia": "@andresfelipenb",
+    "quote": "Ctrl C, Ctrl V",
+    "funFact": "Ha tomado más café que líneas de código ha escrito (y eso ya es mucho decir).",
+    "vibe": "Nocturno cafeinado, commits a las 2am",
+    "superpower": "Trasnochar como si nada",
+    "topLike": { "name": "Muay Thai", "rating": 5 },
+    "favoriteTool": { "name": "Python", "icon": "fa-brands fa-python" },
+    "song": { "title": "Vagabundo Borracho y Loco", "artist": "Segundo Rosero", "url": "https://open.spotify.com/intl-es/track/4QhcGHl6wq5WMpNOezdc9t" },
+    "topSpots": [
+        "Coliseo Alberto Leon Betancur - Sitio de relajacion",
+        "Central Univalle - Restaurante favorito",
+        "Pasto, Nariño"
+    ]
+}
